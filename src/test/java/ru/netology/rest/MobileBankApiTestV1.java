@@ -13,7 +13,7 @@ class MobileBankApiTestV1 {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("some value")
+                .body("some value1")
                 .when()
                 .post("/post")
                 .then()
